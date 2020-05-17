@@ -304,6 +304,10 @@ footer {
     order: 4;
   }
 
+  ul {
+    padding-left: 0;
+  }
+
   .contact {
     text-align: center;
   }
