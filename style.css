@@ -329,6 +329,39 @@ footer {
     width: 100%;
   }
 
+  section {
+    background-color: #43ac7b9f;
+    font-weight: bold;
+  }
+
+  .section,
+  .cadre {
+    margin: 0;
+  }
+
+  .bloc {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .titres {
+    color: #43ac7b9f;
+    background-color: black;
+    text-align: center;
+  }
+
+  .titres i {
+    color: #43ac7b9f;
+  }
+
+  .date i {
+    color: #000000;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
   .bloc {
     display: flex;
     flex-direction: column;
@@ -353,6 +386,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .footer_droit ul {
