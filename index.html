@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
-
     <script
       src="https://kit.fontawesome.com/98c7d1dac5.js"
       crossorigin="anonymous"
@@ -14,54 +12,53 @@
   </head>
   <body>
     <!--bloc-page-->
-    <div class="container" id="bloc-page">
+    <div class="page">
       <!--header-->
-      <header class="row" id="header">
-        <!--partie_gauche-->
-        <div class="col-lg-4" id="photo">
-          <img src="images/photo.jpg" alt="ma_photo" />
-        </div>
-        <!--partie_droite-->
-        <div class="col-lg-8" id="nom">
+      <header>
+        <!--photo-->
+        <div class="photo"><img src="images/photo.jpg" alt="ma_photo" /></div>
+        <!--nom-->
+        <div class="nom">
           <h1><span class="prenom">AXEL</span> COCHELIN</h1>
           <h2><span class="line">Dével</span>oppeur web freelance</h2>
         </div>
       </header>
-      <!--corps-->
-      <div class="row" id="corps">
-        <div class="col-lg-4" id="partie_gauche">
-          <!--section contact-->
-          <section class="contact">
-            <h1>CONTACT</h1>
+      <!--bloc-corps-->
+      <div class="corps">
+        <!--partie_gauche-->
+        <aside>
+          <!--contact-->
+          <div class="contact">
+            <h2>CONTACT</h2>
             <ul>
               <li>
-                <h2>Adresse</h2>
+                <h3>Adresse</h3>
                 <p>1B rue Danielle Casanova</p>
                 <p>78190 TRAPPES</p>
               </li>
               <li>
-                <h2>Téléphone</h2>
+                <h3>Téléphone</h3>
                 <p>06.XX.XX.XX.XX</p>
               </li>
               <li>
-                <h2>Email</h2>
+                <h3>Email</h3>
                 <a href="mailto:ax.cochelin@gmail.com">ax.cochelin@gmail.com</a>
               </li>
               <li>
-                <h2>Site Web</h2>
+                <h3>Site Web</h3>
                 <a href="https://github.com/AxelCOCHELIN">my GitHub</a>
               </li>
               <li>
-                <h2>LinkedIn</h2>
+                <h3>LinkedIn</h3>
                 <a href="https://www.linkedin.com/in/axel-cochelin-070473bb/"
                   >Mon LinkedIn</a
                 >
               </li>
             </ul>
-          </section>
-          <!--section à propos-->
-          <section class="about">
-            <h1>À PROPOS DE MOI</h1>
+          </div>
+          <!--about-->
+          <div class="about">
+            <h2>À PROPOS DE MOI</h2>
             <p>
               Je suis curieux de nature et j'ai toujours aimé apprendre. Dans
               mon parcours de vie j'ai été linguiste, boulanger, animateur pour
@@ -78,180 +75,161 @@
               devenu bilingue en anglais. Je suis aujourd'hui disponible pour
               travailler avec vous.
             </p>
-          </section>
-          <!--footer loisir-->
-          <footer id="hobbies">
-            <h1>LOISIRS</h1>
-            <div id="logos">
-              <i class="fas fa-baseball-ball"></i>
-              <i class="fas fa-gamepad"></i>
-              <i class="fas fa-music"></i>
-            </div>
-          </footer>
-        </div>
-        <!--partie de droite-->
-        <div class="col-lg-8" id="partie_droite">
-          <!--section formation-->
-          <section class="formation">
+          </div>
+        </aside>
+        <!--partie_droite-->
+        <section>
+          <div class="section">
+            <!--formation-->
             <div class="titres">
               <i class="fas fa-user-graduate"></i>
               <h2>FORMATION</h2>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="far fa-dot-circle"></i>2020
-                </div>
-                <div class="col-lg-9">
-                  <h3>OPENCLASSROOMS</h3>
-                  <h4>Formation développeur web à distance</h4>
-                  <p>
-                    Apprentissage du langage HTML, CSS, de Javascript ainsi que
-                    de Node.js. Intégration de maquettes. Utilisation du
-                    framework Bootstrap et acquisition des méthodes de
-                    référencement. Utilisation de MySQL et gestion de base de
-                    données.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2017 - 2019
-                </div>
-                <div class="col-lg-9">
-                  <h3>CREPS de Montpellier</h3>
-                  <h4>DEJEPS Baseball, Softball et Cricket</h4>
-                  <p>
-                    Formation de cadres. Acquisition de maitrise de
-                    l'entrainement et de l'encadrement à haut niveau. Création
-                    de projet national sur le Baseball5.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2012 - 2016
-                </div>
-                <div class="col-lg-9">
-                  <h3>Université de Montpellier</h3>
-                  <h4>D.U. Musicothérapeute</h4>
-                  <p>
-                    Neurobiologie, psychologie, musicothérapie, techniques
-                    d'induction musicale, techniques de relaxation, cours de
-                    musique.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2009 - 2010
-                </div>
-                <div class="col-lg-9">
-                  <h3>CFA de La Rochelle</h3>
-                  <h4>CAP de Boulanger</h4>
-                  <p>
-                    Façonnage de pain, techniques de viennoiserie, apprentissage
-                    des règles HACCP, PSC 1.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2004 - 2006
-                </div>
-                <div class="col-lg-9">
-                  <h3>Université de La Rochelle</h3>
-                  <h4>D.E.U.G. L.E.A. anglais, chinois, coréen</h4>
-                  <p>
-                    Apprentissage des langues étrangères, mise en pratique en
-                    situation commerciale, apprentissage des cultures
-                    asiatiques.
-                  </p>
-                </div>
+            <div class="bloc">
+              <div class="date"><i class="far fa-dot-circle"></i>2020</div>
+              <div class="text">
+                <h3>OPENCLASSROOMS</h3>
+                <h4>Formation développeur web à distance</h4>
+                <p>
+                  Apprentissage du langage HTML, CSS, de Javascript ainsi que de
+                  Node.js. Intégration de maquettes. Utilisation du framework
+                  Bootstrap et acquisition des méthodes de référencement.
+                  Utilisation de MySQL et gestion de base de données.
+                </p>
               </div>
             </div>
-          </section>
-          <!--section expériences-->
-          <section class="experiences">
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2017 - 2019</div>
+              <div class="text">
+                <h3>CREPS de Montpellier</h3>
+                <h4>DEJEPS Baseball, Softball et Cricket</h4>
+                <p>
+                  Formation de cadres. Acquisition de maitrise de l'entrainement
+                  et de l'encadrement à haut niveau. Création de projet national
+                  sur le Baseball5.
+                </p>
+              </div>
+            </div>
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2012 - 2016</div>
+              <div class="text">
+                <h3>Université de Montpellier</h3>
+                <h4>D.U. Musicothérapeute</h4>
+                <p>
+                  Neurobiologie, psychologie, musicothérapie, techniques
+                  d'induction musicale, techniques de relaxation, cours de
+                  musique.
+                </p>
+              </div>
+            </div>
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2009 - 2010</div>
+              <div class="text">
+                <h3>CFA de La Rochelle</h3>
+                <h4>CAP de Boulanger</h4>
+                <p>
+                  Façonnage de pain, techniques de viennoiserie, apprentissage
+                  des règles HACCP, PSC 1.
+                </p>
+              </div>
+            </div>
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2004 - 2006</div>
+              <div class="text">
+                <h3>Université de La Rochelle</h3>
+                <h4>D.E.U.G. L.E.A. anglais, chinois, coréen</h4>
+                <p>
+                  Apprentissage des langues étrangères, mise en pratique en
+                  situation commerciale, apprentissage des cultures asiatiques.
+                </p>
+              </div>
+            </div>
+
+            <!--experience-->
             <div class="titres">
               <i class="fas fa-briefcase"></i>
               <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="far fa-dot-circle"></i>2015 - 2020
-                </div>
-                <div class="col-lg-9">
-                  <h3>Manager et coach de Baseball pour adultes et jeunes</h3>
-                  <h4>Ligues Occitanie, Nouvelle Aquitaine et Ile de France</h4>
-                  <p>
-                    Encadrement de joueurs, création de planification
-                    d'entrainement, gestion de rencontres et de tournois,
-                    gestion de groupes en déplacement à longues distances.
-                    Formateur de coaches et chef de projet pour le développement
-                    du Baseball5.
-                  </p>
-                </div>
+            <div class="bloc">
+              <div class="date">
+                <i class="far fa-dot-circle"></i>2015 - 2020
               </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2006 - 2020
-                </div>
-                <div class="col-lg-9">
-                  <h3>Animateur enfants</h3>
-                  <h4>Écoles, accueils de loisirs, accueils de vacances</h4>
-                  <p>
-                    Animations sportives, artistiques et culturelles.
-                    Encadrement de groupes. Pédagogie, gestion de la sécurité
-                    physique, mentale et affective des enfants de 3 à 17 ans.
-                  </p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3">
-                  <i class="fas fa-circle"></i>2009 - 2011
-                </div>
-                <div class="col-lg-9">
-                  <h3>Boulanger</h3>
-                  <h4>Boulangerie Banette à La Rochelle et à Bordeaux</h4>
-                  <p>
-                    Apprenti boulanger puis ouvrier boulanger. Façonnage des
-                    pains et des viennoiseries. Créations de pains spéciaux
-                  </p>
-                </div>
+              <div class="text">
+                <h3>Manager et coach de Baseball pour adultes et jeunes</h3>
+                <h4>Ligues Occitanie, Nouvelle Aquitaine et Ile de France</h4>
+                <p>
+                  Encadrement de joueurs, création de planification
+                  d'entrainement, gestion de rencontres et de tournois, gestion
+                  de groupes en déplacement à longues distances. Formateur de
+                  coaches et chef de projet pour le développement du Baseball5.
+                </p>
               </div>
             </div>
-          </section>
-          <!--footer recommandations-->
-          <footer class="recommandations">
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2006 - 2020</div>
+              <div class="text">
+                <h3>Animateur enfants</h3>
+                <h4>Écoles, accueils de loisirs, accueils de vacances</h4>
+                <p>
+                  Animations sportives, artistiques et culturelles. Encadrement
+                  de groupes. Pédagogie, gestion de la sécurité physique,
+                  mentale et affective des enfants de 3 à 17 ans.
+                </p>
+              </div>
+            </div>
+            <div class="bloc">
+              <div class="date"><i class="fas fa-circle"></i>2009 - 2011</div>
+              <div class="text">
+                <h3>Boulanger</h3>
+                <h4>Boulangerie Banette à La Rochelle et à Bordeaux</h4>
+                <p>
+                  Apprenti boulanger puis ouvrier boulanger. Façonnage des pains
+                  et des viennoiseries. Créations de pains spéciaux
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--footer-->
+      <footer>
+        <!--hobbies-->
+        <div class="hobbies">
+          <h2>LOISIRS</h2>
+          <div id="logos">
+            <i class="fas fa-baseball-ball"></i>
+            <i class="fas fa-gamepad"></i>
+            <i class="fas fa-music"></i>
+          </div>
+        </div>
+        <!--recommandations-->
+        <div class="recommandations">
+          <div class="cadre">
             <div class="titres">
               <i class="fas fa-pencil-alt"></i>
               <h2>RECOMMANDATIONS</h2>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li><h3>ICHIRO SUZUKI</h3></li>
-                    <li>Joueur de Baseball exceptionnel</li>
-                    <li>06.XX.XX.XX.XX</li>
-                    <li><a href="mailto:">Ichiro-Suzuki</a></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li><h3>TIM BERNERS-LEE</h3></li>
-                    <li>Créateur du web</li>
-                    <li>06.XX.XX.XX.XX</li>
-                    <li><a href="mailto:">Tim_BERNERS_LEE</a></li>
-                  </ul>
-                </div>
-              </div>
+            <div class="footer_droit">
+              <ul class="list">
+                <li>
+                  <h3>ICHIRO SUZUKI</h3>
+                </li>
+                <li>Joueur de Baseball exceptionnel</li>
+                <li>06.XX.XX.XX.XX</li>
+                <li><a href="mailto:">Ichiro-Suzuki</a></li>
+              </ul>
+              <ul class="list">
+                <li>
+                  <h3>TIM BERNERS-LEE</h3>
+                </li>
+                <li>Créateur du web</li>
+                <li>06.XX.XX.XX.XX</li>
+                <li><a href="mailto:">Tim_BERNERS_LEE</a></li>
+              </ul>
             </div>
-          </footer>
+          </div>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
