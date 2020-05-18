@@ -95,18 +95,15 @@ aside h2,
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 0;
+  margin-top: 20px;
 }
 
-aside ul {
+.contact h3,
+.contact p,
+.contact a {
   display: flex;
   flex-direction: column;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-li {
-  list-style-type: none;
+  padding-left: 40px;
 }
 
 aside h3 {
@@ -205,6 +202,10 @@ footer {
   justify-content: space-evenly;
 }
 
+.hobbies h2 {
+  margin-bottom: 0;
+}
+
 #logos {
   display: flex;
   justify-content: space-evenly;
@@ -234,9 +235,15 @@ footer {
   flex-direction: row;
 }
 
-.recommandations ul {
+.footer_droit p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.recommandations .list {
   width: 50%;
   padding-left: 0;
+  padding-bottom: 20px;
 }
 
 .recommandations a {
@@ -304,12 +311,14 @@ footer {
     order: 4;
   }
 
-  ul {
-    padding-left: 0;
-  }
-
   .contact {
     text-align: center;
+  }
+
+  .contact h3,
+  .contact p,
+  .contact a {
+    padding-left: 0;
   }
 
   .hobbies {
@@ -362,10 +371,6 @@ footer {
     color: #000000;
   }
 
-  ul {
-    padding-left: 0;
-  }
-
   .bloc {
     display: flex;
     flex-direction: column;
@@ -394,7 +399,7 @@ footer {
     margin-right: 30px;
   }
 
-  .footer_droit ul {
+  .footer_droit .list {
     width: 40%;
   }
 }
